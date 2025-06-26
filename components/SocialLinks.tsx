@@ -38,8 +38,7 @@ const socialLink = [
 
 interface Props {
   className?: string;
-  iconClassName?: string;
-  tooltipClassName?: string;
+  tooltipClassName?: string; // Removed iconClassName
 }
 
 const SocialLinks = ({ className, iconClassName, tooltipClassName }: Props) => {
