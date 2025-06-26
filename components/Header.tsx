@@ -7,7 +7,7 @@ import CartIcon from "./CartIcon";
 import FavoriteIcon from "./FavoriteIcon";
 import MobileMenu from "./MobileMenu";
 import { currentUser } from "@clerk/nextjs/server";
-import { ClerkLoaded, SignInButton, SignedIn, UserButton } from "@clerk/nextjs";
+import { ClerkLoaded, SignedIn, UserButton } from "@clerk/nextjs";
 import SignInButtonComponent from "./SignInButtonComponent";
 
 const Header = async () => {
